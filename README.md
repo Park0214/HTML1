@@ -63,8 +63,8 @@
 </hr>
 <hr>
  4. 이미지 <br>
-  <img src = "https://news.samsungdisplay.com/wp-content/uploads/2018/08/8.jpg" width="300"> <br>
-  <img src = "https://t1.daumcdn.net/cfile/tistory/99BB43455E8108F209" width="300"> <br>
+  <img src = "https://i.ytimg.com/vi/WciQwEDtnS8/hqdefault.jpg" width="300"> <br>
+  <img src = "https://thumbs.gfycat.com/CloseScratchyIrishredandwhitesetter-size_restricted.gif" width="300"> <br>
 </hr>
 <hr>
 6. a 2개 <br>
