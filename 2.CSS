@@ -1,26 +1,93 @@
-#one {
-    border: 5px dashed rgb(215, 28, 28); 
-    width:300px; 
-    height:50px;
-} 
+h1 {
+    color: green;
+  }
 
+  h2 {
+    color: rgb(177, 212, 38);
+  }
 
+  h3 {
+    color: rgb(76, 20, 197);
+  }
 
-#two {
-    border: 0.5px dashed rgb(253, 10, 10); 
-    width:450px; 
-    height:450px
+  .a {
+      margin-left: 200px;
+  }
+
+  .b {
+    width: 100px;
+    height: 100px;
+    margin: 60px auto;
+    transition: all ease 1s;
 }
 
-#three {
-    border: 3px dashed rgb(14, 190, 243); 
-    width:500px; 
-    height:50px
+.b:hover {
+    transform: rotateY( 180deg );
 }
 
-ol > li {
-    color:rgb(20, 189, 201);
+
+.c {
+    margin-right: 200px;
 }
-h3 {
-    color:rgb(174, 0, 255); 
+
+.c {
+    width: 100px;
+    height: 100px;
+    margin: 60px auto;
+    transition: all ease 2s;
 }
+
+.c:hover {
+    transform: rotate( 360deg );
+}
+
+.a {
+    width: 100px;
+    height: 100px;
+    margin: 60px auto;
+    transition: all ease 2s;
+}
+
+.a:hover {
+    transform: rotatez( 180deg );
+}
+
+h1 {
+        animation-duration: 3s;
+        animation-name: rainbowLink;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes rainbowLink {
+        0% {
+            color: #ff2a2a;
+        }
+    
+        15% {
+            color: #ff7a2a;
+        }
+    
+        30% {
+            color: #ffc52a;
+        }
+    
+        45% {
+            color: #43ff2a;
+        }
+    
+        60% {
+            color: #2a89ff;
+        }
+    
+        75% {
+            color: #202082;
+        }
+    
+        90% {
+            color: #6b2aff;
+        }
+    
+        100% {
+            color: #e82aff;
+        }
+    }
