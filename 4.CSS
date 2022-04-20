@@ -1,0 +1,27 @@
+h1 {
+    color: green;
+  }
+
+  h2 {
+    color: rgb(177, 212, 38);
+  }
+
+  h3 {
+    color: rgb(76, 20, 197);
+  }
+
+  #imgs {
+        border : none;
+        display: flex;
+        flex-direction: row-reverse;
+      }
+
+      img {
+        position: relative;
+        border: 10px solid #0d0f0a;
+      }
+
+      h2 {
+        position: relative;
+        border: 5px solid #81c915;
+      }
