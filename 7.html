@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="3.CSS">
+
+  <style>
+    .container {
+      width: 100%;
+      height: 100%;
+      background: url("./img/wa5.png");
+    }
+
+    img {
+     display:block; margin:auto;
+}
+
+
+        @media screen and (max-width: 720px) {
+            body {
+                background-color: black;
+            }
+            
+        }
+
+        @media screen and (max-width: 600px) {
+            body {
+                background-color: rgb(80, 220, 67);
+            }
+            
+        }
+
+        @media screen and (min-width: 200px) {
+            p {
+                background-color: rgb(185, 219, 16);
+            }
+            
+        }
+
+        @media screen and (min-width: 375px) {
+            p {
+                background-color: rgb(12, 206, 255);
+            }
+            
+            #container {
+              display:flex;
+              flex-direction: row;
+              justify-content: center;
+            }
+            
+        }
+
+        @media screen and (min-width: 450px) {
+            p {
+                background-color: rgb(232, 2, 198);
+            }
+            
+        }
+
+        @media screen and (max-width: 500px){ 
+        body {
+  background-image: linear-gradient(90deg, red, orange, yellow, green, blue, navy, purple);
+  color: transparent;
+
+  font-weight: bold;
+  font-size: 40px;
+        }
+}
+
+img, container {
+    animation: blinking 2s alternate infinite;
+}
+@keyframes blinking {
+    from {
+        box-shadow: 0 0 7px 7px rgb(134, 19, 211);
+    }
+    50%{
+        box-shadow: 0 0 7px 7px #ed0808;
+    }
+    to {
+        box-shadow: 0 0 7px 7px rgb(85, 176, 24);
+    }
+    
+}
+
+  </style>
+
+</head>
+<body>
+  <div class="container">
+    <h1 class="title"></h1>
+
+  <div id="header">
+    <a href="www.naver.com">네이버</a>
+    </div>
+
+   <div id="container">
+     <a href="https://news.naver.com/">
+     <img class="a" src="wa1.png" width="100" height="100">
+    </a>
+
+    <a href="https://sports.news.naver.com/index.nhn">
+      <img class="b" src="wa2.png" width="100" height="100">
+    </a>
+
+    <a href="https://comic.naver.com/webtoon/weekday">
+      <img class="c" src="wa3.png" width="100" height="100">
+    </a> 
+</div>
+  <br>
+     <footer id="footer">
+      <h1>pmh123@naver.com</h1>
+  </footer></body>
+  
+
+</body>
+</html>
