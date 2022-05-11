@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+ 
+<head>
+<meta http-equiv="Content-Type"
+    content="text/html;
+    charset=utf-8" />
+<title>addListener test</title>
+<style>
+    body {
+        background-color: black;
+        padding: 50px;
+        font-size: 40px;
+        color: aliceblue;
+
+    }
+
+
+</style> 
+
+</head>
+ 
+<body> 
+    <button onclick="MouseOver();">레드</button> 
+    <button onclick="leLeave();">블루</button> 
+    <button onclick="onReset();">화이트</button> 
+    <button onclick="leContextMenu();">그린</button> 
+    
+    <script> 
+    
+
+
+function MouseOver() {
+    document.body.style.backgroundColor ="red";
+    divTag.innerHTML = "mouseover";
+}
+
+function leLeave() {
+    document.body.style.backgroundColor = "blue";
+    divTag.innerHTML = "mouseleave";
+}
+
+function onReset() {
+    document.body.style.backgroundColor = "white";
+    divTag.innerHTML = "resize";
+}
+
+function leContextMenu() {
+    document.body.style.backgroundColor = "green";
+    divTag.innerHTML = "contextmenu";
+}
+
+        document.body.style.addEventListener("mouseover", MouseOver);
+        document.body.style.addEventListener("mouseleave", leLeave);
+        document.body.style.addEventListener("resize", onReset);
+        document.body.style.addEventListener("contextmenu", leContextMenu);
+
+</script>
+    
+</body>
+</html>
